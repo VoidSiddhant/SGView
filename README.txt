@@ -1,3 +1,1 @@
-The package is already built use ./sgview -image <filename>
-
-If you want to rebuild the package then use make install
+Image processing framework built in C++. This framework uses external libraries like OpenImageIO for I/O image file operations, supporting wide set of extensions and Glut/OpenGL for rendering image pixels onto the screen. Project is for linux only and will require extra work for cross compilation on windows system (due to external library dependency). Project compiles into a static library called myLib.a which is then linked to the main program for building final application using the framework. Please check "makefile".
